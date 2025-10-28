@@ -1,0 +1,70 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+  color: var(--navy-blue);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+  color: var(--iris);
+}
+
+.e-address,
+.phone {
+  color: var(--slate);
+}
