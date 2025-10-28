@@ -15,7 +15,8 @@
 
 a {
   text-decoration: none;
-  color: var(--iris);
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -48,9 +49,9 @@ h2 {
 }
 
 h3 {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 h1,
@@ -67,19 +68,79 @@ button:hover,
 button:focus,
 a:hover,
 a:focus {
-  color: var(--iris);
+  background-color: var(--ocean);
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: var(--navy-blue);
+}
 .e-address,
 .phone {
   color: var(--slate);
+  letter-spacing: 0.02em;
 }
 
 .hero {
   background-color: var(--grey);
 }
 
+.hero-h1 {
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.hero-button {
+  background-color: var(--iris);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
 header,
 .team-card {
   background-color: var(--white);
+}
+
+.address {
+  font-style: normal;
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-h2 {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-member {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.team-p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
