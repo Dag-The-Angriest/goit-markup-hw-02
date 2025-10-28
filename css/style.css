@@ -105,7 +105,7 @@ button:focus {
   background-color: var(--grey);
 }
 
-.h1-hero {
+.hero-h {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -150,7 +150,7 @@ header,
   color: #434455;
 }
 
-.portfolio-h2 {
+.portfolio-h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
