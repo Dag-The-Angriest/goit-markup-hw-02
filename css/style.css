@@ -157,6 +157,13 @@ header,
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.portfolio-h-main {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .goals-p {
   letter-spacing: 0.02em;
