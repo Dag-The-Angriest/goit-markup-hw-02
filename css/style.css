@@ -13,6 +13,8 @@
   --dairy: #fcfcfc;
 }
 
+/*  position, width, height, left, top, box-sizing, display, align-items, padding, flex-direction, gap, border-radius, box-shadow, order, flex-grow, border-bottom */
+
 a {
   text-decoration: none;
   color: var(--navy-blue);
@@ -29,7 +31,7 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate);
+  background-color: var(--white);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -78,15 +80,26 @@ a:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-span {
   color: var(--navy-blue);
 }
-.e-address,
-.phone {
+.nav-link {
+  font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.e-address {
   color: var(--slate);
   letter-spacing: 0.02em;
+}
+.e-address:hover,
+.e-address:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -143,4 +156,17 @@ header,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.goals-p {
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-p {
+  color: var(--cloud);
+  letter-spacing: 0.02em;
 }
