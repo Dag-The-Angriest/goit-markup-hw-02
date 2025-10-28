@@ -15,7 +15,7 @@
 
 a {
   text-decoration: none;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 ul {
@@ -53,6 +53,12 @@ h3 {
   letter-spacing: 2%;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--navy-blue);
+}
+
 button {
   cursor: pointer;
 }
@@ -67,4 +73,13 @@ a:focus {
 .e-address,
 .phone {
   color: var(--slate);
+}
+
+.hero {
+  background-color: var(--grey);
+}
+
+header,
+.team-card {
+  background-color: var(--white);
 }
